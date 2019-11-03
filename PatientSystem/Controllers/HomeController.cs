@@ -62,9 +62,9 @@ namespace PatientSystem.Controllers
             {
                 Patients = _repository.PatientList
                 //.Where(x => maritalStatus == null || x.MaritalStatus == maritalStatus)
-                //.OrderBy(x => x.Name)
-                //.Skip((page - 1) * pageSize)
-                //.Take(pageSize)
+                .OrderBy(x => x.Name)
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
                 ,
 
                 PageInfor = new PageInfor

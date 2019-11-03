@@ -28,7 +28,14 @@
             <td> @item.Occupation</td>
             <td> @(item.HasInsurance ? "Yes" : "No")</td>
             <td> @(item.HasOperationBefore ? "Yes" : "No")</td>
-            <td> @item.MaritalStatus</td>
+            <td>
+                @(
+                    item.MaritalStatus == 1 ? "Married" : (
+                    item.MaritalStatus == 2 ? "Single" : (
+                    item.MaritalStatus == 3 ? "Divorced" : (
+                    item.MaritalStatus == 4 ? "Widowed" :"")))
+                )
+            </td>
             <td>@item.Id</td>
             <td>@item.RegisterTime</td>
 

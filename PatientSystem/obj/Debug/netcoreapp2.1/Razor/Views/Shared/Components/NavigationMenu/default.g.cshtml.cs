@@ -60,7 +60,7 @@ using PatientSystem.Models.ViewModels;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(153, 101, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aec1745f9d1a48a981e5c01154a609c9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ac88e93642384c0d9ba7d632e2dfff02", async() => {
                 BeginContext(238, 12, true);
                 WriteLiteral("\r\n    home\r\n");
                 EndContext();
@@ -96,7 +96,7 @@ using PatientSystem.Models.ViewModels;
 #line default
 #line hidden
             BeginContext(303, 148, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fc080269608946cda779ddd0880df09c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3fc8d44a554d4ccabe83fd3a29e5d1d1", async() => {
                 BeginContext(425, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();
