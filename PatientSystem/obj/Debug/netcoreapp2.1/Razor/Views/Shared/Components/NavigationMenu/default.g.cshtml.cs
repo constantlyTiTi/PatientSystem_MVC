@@ -24,7 +24,7 @@ using PatientSystem.Models.ViewModels;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"555e2042495922edf22bdc1f10bb9070cd4b5f7c", @"/Views/Shared/Components/NavigationMenu/default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cce2464548134a9b6f2e9b1d5889ca8206b1eb59", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"01c763c68ac872137b83e7920d7106c8034335a1", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Components_NavigationMenu_default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<string>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "PatientList", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -60,7 +60,7 @@ using PatientSystem.Models.ViewModels;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(153, 101, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4fc3a810b3714e17ad0027f3caae1905", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aec1745f9d1a48a981e5c01154a609c9", async() => {
                 BeginContext(238, 12, true);
                 WriteLiteral("\r\n    home\r\n");
                 EndContext();
@@ -96,7 +96,7 @@ using PatientSystem.Models.ViewModels;
 #line default
 #line hidden
             BeginContext(303, 148, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5329006f9ae64cee93b63cf3dd87d151", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fc080269608946cda779ddd0880df09c", async() => {
                 BeginContext(425, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();

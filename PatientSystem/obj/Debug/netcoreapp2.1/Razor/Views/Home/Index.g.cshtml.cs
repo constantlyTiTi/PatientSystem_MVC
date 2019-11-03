@@ -24,7 +24,7 @@ using PatientSystem.Models.ViewModels;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"21be295cb4fd9e8a8f88897850be5e4178573cee", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cce2464548134a9b6f2e9b1d5889ca8206b1eb59", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"01c763c68ac872137b83e7920d7106c8034335a1", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #line hidden
@@ -54,7 +54,7 @@ using PatientSystem.Models.ViewModels;
             WriteLiteral("\r\n\r\n\r\n<!DOCTYPE HTML>\r\n\r\n<html>\r\n");
             EndContext();
             BeginContext(154, 112, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0838dad92484400cbc031c83cd53554a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0999bacb5dbe4eaaa2ca14eab729e888", async() => {
                 BeginContext(160, 99, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>Registration Page</title>\r\n");
                 EndContext();
@@ -74,7 +74,7 @@ using PatientSystem.Models.ViewModels;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(268, 92, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c0aa2b2ab79944f78d8d00839c3c2d61", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6b1992e7cab84a3f988b657dad3d4cc8", async() => {
                 BeginContext(274, 21, true);
                 WriteLiteral("\r\n    <div>\r\n        ");
                 EndContext();

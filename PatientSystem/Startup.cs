@@ -33,17 +33,19 @@ namespace PatientSystem
             //    await context.Response.WriteAsync("Hello World!");
             //});
             app.UseStatusCodePages();
+            app.UseStaticFiles();
 
             app.UseMvc(routes =>
             {
+                //routes.MapRoute(
+                //name: "patientList",
+                //    template: "page={page:int}",
+                //defaults: new { controller = "home", action = "PatientList", page = 1 }
+                //);
                 routes.MapRoute(
                 name: "defualt",
                     template: "{controller=home}/{action=Index}/{id?}");
-                routes.MapRoute(
-                name: "martialStatus",
-                    template: "{controller=home}/{action=PatientList}/{martialStatus=Married}/{page=1}");
-            }
-                );
+            });
         }
     }
 }

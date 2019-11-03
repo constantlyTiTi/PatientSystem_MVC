@@ -12,7 +12,7 @@ namespace PatientSystem.Controllers
 {
     public class HomeController : Controller
     {
-        private Repository _repository = new Repository();
+        private Repository _repository;
         public int pageSize=2;
         public HomeController(Repository repo)
         {
@@ -32,35 +32,49 @@ namespace PatientSystem.Controllers
             return View("ThankYouPage", newPatient);
         }
 
-        public ViewResult PatientList()
-        {
-            return View(_repository.PatientList
-            .OrderBy(p => p.Name));
-        }
-
-        //public ViewResult PatientList(string maritalStatus, int page = 1)
+        //public ViewResult PatientList(int page = 1)
         //{
-        //    //PatientListViewModel patientListViewModel = new PatientListViewModel();
-        //    //PageInfor pageInfor = new PageInfor{
-        //    //    CurrentPage = page,
-        //    //    ItemPerPage = pageSize,
-        //    //    TotalItems = _repository.PatientList.Count()
-        //    //};
-        //    //patientListViewModel.Patients = _repository.PatientList
-        //    //    .Where(x => maritalStatus == null || x.MaritalStatus == maritalStatus)
-        //    //.OrderBy(x => x.Name)
-        //    //.Skip((page - 1) * pageSize)
-        //    //.Take(pageSize);
-
-        //    //patientListViewModel.PageInfor = pageInfor
-        //    //;
-
         //    return View(_repository.PatientList
-        //        .Where(x => maritalStatus == null || x.MaritalStatus == maritalStatus)
-        //    .OrderBy(x => x.Name)
-        //    .Skip((page - 1) * pageSize)
-        //    .Take(pageSize));
+        //    .OrderBy(p => p.Name)
+        //        .Skip((page - 1) * pageSize)
+        //        .Take(pageSize)
+        //    );
         //}
+
+        public ViewResult PatientList(int page = 1)
+        {
+            //PatientListViewModel patientListViewModel = new PatientListViewModel();
+            //PageInfor pageInfor = new PageInfor{
+            //    CurrentPage = page,
+            //    ItemPerPage = pageSize,
+            //    TotalItems = _repository.PatientList.Count()
+            //};
+            //patientListViewModel.Patients = _repository.PatientList
+            //    .Where(x => maritalStatus == null || x.MaritalStatus == maritalStatus)
+            //.OrderBy(x => x.Name)
+            //.Skip((page - 1) * pageSize)
+            //.Take(pageSize);
+
+            //patientListViewModel.PageInfor = pageInfor
+            //;
+
+            return View(new PatientListViewModel
+            {
+                Patients = _repository.PatientList
+                //.Where(x => maritalStatus == null || x.MaritalStatus == maritalStatus)
+                //.OrderBy(x => x.Name)
+                //.Skip((page - 1) * pageSize)
+                //.Take(pageSize)
+                ,
+
+                PageInfor = new PageInfor
+                {
+                    CurrentPage = page,
+                    ItemPerPage = pageSize,
+                    TotalItems = _repository.PatientList.Count()
+                }
+            });
+        }
 
         public ViewResult ThankYouPage(Patient aPatient)
         {

@@ -24,7 +24,7 @@ using PatientSystem.Models.ViewModels;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"fd66ee3a06182fbae3d5444e87b2e6f473d05b77", @"/Views/Shared/_PatientLayout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cce2464548134a9b6f2e9b1d5889ca8206b1eb59", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"01c763c68ac872137b83e7920d7106c8034335a1", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__PatientLayout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #line hidden
@@ -54,7 +54,7 @@ using PatientSystem.Models.ViewModels;
             WriteLiteral("<!DOCTYPE html>\r\n\r\n<html>\r\n");
             EndContext();
             BeginContext(27, 298, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "36c8a16f009a4872bf2ecc6245df4032", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c7146f20f96e490d869221b16cde9a94", async() => {
                 BeginContext(33, 72, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>");
                 EndContext();
@@ -97,7 +97,7 @@ WriteAttributeValue("", 162, Url.Content("~/CSS/StyleSheet.css"), 162, 36, false
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(327, 802, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f310c5e835c246a9a240b4c25f7b0500", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b9e04ef0a3f74fad86a50c3a9e11b35e", async() => {
                 BeginContext(333, 117, true);
                 WriteLiteral("\r\n    <div class=\"upperBrandClass\">\r\n        <span class=\"logSpanClass\">\r\n            <img class=\"backGroundPicClass\"");
                 EndContext();

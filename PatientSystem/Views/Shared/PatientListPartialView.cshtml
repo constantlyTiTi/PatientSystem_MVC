@@ -1,7 +1,7 @@
 ﻿@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
-@model IEnumerable<Patient>
+@model PatientListViewModel
 
 <table>
     <thead>
@@ -19,21 +19,21 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (Patient item in Model)
-        {
-            <tr>
-                <td> @item.Name</td>
-                <td> @item.Age</td>
-                <td> @item.Address</td>
-                <td> @item.Occupation</td>
-                <td> @(item.HasInsurance ? "Yes" : "No")</td>
-                <td> @(item.HasOperationBefore ? "Yes" : "No")</td>
-                <td> @item.MaritalStatus</td>
-                <td>@item.Id</td>
-                <td>@item.RegisterTime</td>
+        @foreach (Patient item in Model.Patients)
+    {
+        <tr>
+            <td> @item.Name</td>
+            <td> @item.Age</td>
+            <td> @item.Address</td>
+            <td> @item.Occupation</td>
+            <td> @(item.HasInsurance ? "Yes" : "No")</td>
+            <td> @(item.HasOperationBefore ? "Yes" : "No")</td>
+            <td> @item.MaritalStatus</td>
+            <td>@item.Id</td>
+            <td>@item.RegisterTime</td>
 
-            </tr>
-        }
+        </tr>
+}
     </tbody>
 
 </table>

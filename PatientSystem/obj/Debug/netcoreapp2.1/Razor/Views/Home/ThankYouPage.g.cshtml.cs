@@ -24,7 +24,7 @@ using PatientSystem.Models.ViewModels;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e96606b61b6015b50867ddeed76ab650f5299d99", @"/Views/Home/ThankYouPage.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cce2464548134a9b6f2e9b1d5889ca8206b1eb59", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"01c763c68ac872137b83e7920d7106c8034335a1", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_ThankYouPage : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Patient>
     {
         #line hidden
@@ -57,7 +57,7 @@ using PatientSystem.Models.ViewModels;
             WriteLiteral("\n<!DOCTYPE HTML>\n<html>\n");
             EndContext();
             BeginContext(160, 46, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "79aa7d3331fc4d90a7ea60f2ca725e21", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cdea75898e8f422f85e4a39fa32a6df5", async() => {
                 BeginContext(166, 33, true);
                 WriteLiteral("\n    <title>Comfirmation</title>\n");
                 EndContext();
@@ -77,7 +77,7 @@ using PatientSystem.Models.ViewModels;
             WriteLiteral("\n\n");
             EndContext();
             BeginContext(208, 166, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "92c18855635b40488a46d76b343f2d27", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2a6de834c64d4ab48c7551894741b012", async() => {
                 BeginContext(214, 15, true);
                 WriteLiteral("\r\n    <strong> ");
                 EndContext();

@@ -1,33 +1,22 @@
 ﻿<Properties StartupConfiguration="{6A075531-28CD-412A-8EAC-A33784CC161D}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="PatientSystem Status">
     <Files>
-      <File FileName="PatientSystem/Controllers/HomeController.cs" Line="38" Column="36" />
-      <File FileName=".git/index" />
-      <File FileName="PatientSystem/Models/Repository.cs" Line="12" Column="27" />
-      <File FileName="PatientSystem/Models/Patient.cs" Line="21" Column="41" />
-      <File FileName="PatientSystem/Views/_ViewStart.cshtml" Line="4" Column="1" />
-      <File FileName="PatientSystem/Views/_ViewImports.cshtml" Line="5" Column="13" />
-      <File FileName="PatientSystem/Views/Home/Index.cshtml" Line="4" Column="1" />
-      <File FileName="PatientSystem/Views/Home/PatientList.cshtml" Line="17" Column="1" />
-      <File FileName="PatientSystem/Views/Home/ThankYouPage.cshtml" Line="17" Column="8" />
+      <File FileName="PatientSystem/Views/_ViewImports.cshtml" Line="5" Column="43" />
       <File FileName="PatientSystem/Views/Shared/IndexPartialView.cshtml" Line="4" Column="1" />
-      <File FileName="PatientSystem/Views/Shared/_PatientLayout.cshtml" Line="21" Column="36" />
-      <File FileName="PatientSystem/Program.cs" Line="17" Column="1" />
-      <File FileName="PatientSystem/Startup.cs" Line="41" Column="55" />
-      <File FileName="PatientSystem/Components/NavigationMenuViewComponent.cs" Line="20" Column="6" />
-      <File FileName="PatientSystem/Views/Shared/Components/NavigationMenu/default.cshtml" Line="16" Column="13" />
-      <File FileName="PatientSystem/Views/Shared/PatientListPartialView.cshtml" Line="6" Column="8" />
-      <File FileName="PatientSystem/Models/ViewModels/PatientListViewModel.cs" Line="6" Column="5" />
-      <File FileName="PatientSystem/Models/ViewModels/PageInfor.cs" Line="8" Column="26" />
-      <File FileName="PatientSystem/wwwroot/CSS/StyleSheet.css" Line="118" Column="1" />
-      <File FileName="PatientSystem/Infrustructure/PageLink.cs" Line="36" Column="41" />
+      <File FileName="PatientSystem/Views/Shared/PatientListPartialView.cshtml" Line="22" Column="26" />
+      <File FileName="PatientSystem/Controllers/HomeController.cs" Line="40" Column="29" />
+      <File FileName="PatientSystem/Startup.cs" Line="40" Column="1" />
+      <File FileName="PatientSystem/Models/ViewModels/PatientListViewModel.cs" Line="8" Column="45" />
+      <File FileName="PatientSystem/Infrastructure/PageLink.cs" Line="29" Column="35" />
       <File FileName="PatientSystem Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.PatientSystem PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/tingli/Desktop/homework/COMP229-web application/assignment/asp_git/PatientSystem/PatientSystem/Controllers/HomeController.cs" relfile="PatientSystem/Controllers/HomeController.cs" line="70" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Razor.TagHelpers;
 using PatientSystem.Models.ViewModels;
 
 // Chp08-08
-namespace PatientSystem.Infrustructure
+namespace PatientSystem.Infrastructure
 {
     [HtmlTargetElement("div",Attributes ="page-model")]
     public class PageLinkTagHelper:TagHelper

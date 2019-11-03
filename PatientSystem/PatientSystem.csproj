@@ -17,7 +17,7 @@
     <Folder Include="Models\ViewModels\" />
     <Folder Include="wwwroot\CSS\" />
     <Folder Include="wwwroot\Image\" />
-    <Folder Include="Infrustructure\" />
+    <Folder Include="Infrastructure\" />
   </ItemGroup>
 
   <ItemGroup>
