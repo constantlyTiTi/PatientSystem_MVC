@@ -59,7 +59,7 @@ using PatientSystem.Models.ViewModels;
             WriteLiteral("\r\n<!DOCTYPE HTML>\r\n<html>\r\n");
             EndContext();
             BeginContext(179, 48, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "637ff69938e94be5b278e2808999c712", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0fb4d001c0e84a78916119730666e40d", async() => {
                 BeginContext(185, 35, true);
                 WriteLiteral("\r\n    <title>Patient List</title>\r\n");
                 EndContext();
@@ -79,7 +79,7 @@ using PatientSystem.Models.ViewModels;
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(231, 181, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0464dfc7bcfc472a8f36a2203a9d88fa", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8ad97914a614423aa4eec097f5714f6e", async() => {
                 BeginContext(237, 23, true);
                 WriteLiteral("\r\n\r\n    <div>\r\n        ");
                 EndContext();
@@ -94,7 +94,7 @@ using PatientSystem.Models.ViewModels;
                 WriteLiteral("\r\n    </div>\r\n    ");
                 EndContext();
                 BeginContext(328, 75, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4a0f028442c54b34aef6ee3d209b5f58", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e41f72a195474b14b61a978ac8941f27", async() => {
                     BeginContext(389, 8, true);
                     WriteLiteral("\r\n\r\n    ");
                     EndContext();

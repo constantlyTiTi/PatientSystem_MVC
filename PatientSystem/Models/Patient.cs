@@ -24,7 +24,7 @@ namespace PatientSystem.Models
         public string Occupation { get; set; }
         public Boolean HasInsurance { get; set; }
         public Boolean HasOperationBefore { get; set; }
-        public string MaritalStatus { get; set; }
+        public int MaritalStatus { get; set; }
         public DateTime RegisterTime { get; set; }
 
         public int determinId()

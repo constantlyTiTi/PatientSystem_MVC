@@ -2,21 +2,21 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="PatientSystem Status">
     <Files>
       <File FileName="PatientSystem/Views/_ViewImports.cshtml" Line="5" Column="43" />
-      <File FileName="PatientSystem/Views/Shared/IndexPartialView.cshtml" Line="4" Column="1" />
-      <File FileName="PatientSystem/Views/Shared/PatientListPartialView.cshtml" Line="22" Column="26" />
-      <File FileName="PatientSystem/Controllers/HomeController.cs" Line="40" Column="29" />
+      <File FileName="PatientSystem/Views/Shared/IndexPartialView.cshtml" Line="44" Column="42" />
+      <File FileName="PatientSystem/Views/Shared/PatientListPartialView.cshtml" Line="32" Column="19" />
+      <File FileName="PatientSystem/Controllers/HomeController.cs" Line="67" Column="32" />
       <File FileName="PatientSystem/Startup.cs" Line="40" Column="1" />
       <File FileName="PatientSystem/Models/ViewModels/PatientListViewModel.cs" Line="8" Column="45" />
       <File FileName="PatientSystem/Infrastructure/PageLink.cs" Line="29" Column="35" />
+      <File FileName="PatientSystem/Models/Patient.cs" Line="32" Column="2" />
+      <File FileName="PatientSystem/Models/ViewModels/PageInfor.cs" Line="14" Column="1" />
       <File FileName="PatientSystem Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.PatientSystem PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/tingli/Desktop/homework/COMP229-web application/assignment/asp_git/PatientSystem/PatientSystem/Controllers/HomeController.cs" relfile="PatientSystem/Controllers/HomeController.cs" line="70" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

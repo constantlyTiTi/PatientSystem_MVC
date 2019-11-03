@@ -54,7 +54,7 @@ using PatientSystem.Models.ViewModels;
             WriteLiteral("\r\n\r\n\r\n<!DOCTYPE HTML>\r\n\r\n<html>\r\n");
             EndContext();
             BeginContext(154, 112, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0999bacb5dbe4eaaa2ca14eab729e888", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6908b6e7fb8e45e88eb266103cce8118", async() => {
                 BeginContext(160, 99, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>Registration Page</title>\r\n");
                 EndContext();
@@ -74,7 +74,7 @@ using PatientSystem.Models.ViewModels;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(268, 92, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6b1992e7cab84a3f988b657dad3d4cc8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b174efdceca643baaffa5808971f5b20", async() => {
                 BeginContext(274, 21, true);
                 WriteLiteral("\r\n    <div>\r\n        ");
                 EndContext();

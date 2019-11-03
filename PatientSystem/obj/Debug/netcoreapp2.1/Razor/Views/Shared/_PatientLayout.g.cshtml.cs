@@ -54,7 +54,7 @@ using PatientSystem.Models.ViewModels;
             WriteLiteral("<!DOCTYPE html>\r\n\r\n<html>\r\n");
             EndContext();
             BeginContext(27, 298, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c7146f20f96e490d869221b16cde9a94", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5e8d9f297cfb40a386416f7658f5ee0b", async() => {
                 BeginContext(33, 72, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>");
                 EndContext();
@@ -97,7 +97,7 @@ WriteAttributeValue("", 162, Url.Content("~/CSS/StyleSheet.css"), 162, 36, false
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(327, 802, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b9e04ef0a3f74fad86a50c3a9e11b35e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8677c14a4fee4fbfb7da11b117434785", async() => {
                 BeginContext(333, 117, true);
                 WriteLiteral("\r\n    <div class=\"upperBrandClass\">\r\n        <span class=\"logSpanClass\">\r\n            <img class=\"backGroundPicClass\"");
                 EndContext();

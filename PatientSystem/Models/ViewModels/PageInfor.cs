@@ -8,6 +8,6 @@ namespace PatientSystem.Models.ViewModels
         public int CurrentPage { get; set; }
 
         public int TotalPages =>
-            (int)Math.Ceiling((decimal)TotalItems / ItemPerPage);
+            (int)Math.Ceiling(((decimal)TotalItems / (decimal)ItemPerPage));
     }
 }
