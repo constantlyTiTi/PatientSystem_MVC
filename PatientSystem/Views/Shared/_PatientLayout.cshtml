@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>@ViewBag.Title</title>
+    </head>
+    <body>
+        <div class="navbar navbar-inverse bg-inverse" role="navigation">
+            <a class="navbar-brand" href="#">Patient Registration</a>
+        </div>
+        <div class="row m-1 p-1">
+            <div id="categories" class="col-3">
+                <nav>
+                    @await Component.InvokeAsync("NavigationMenu")
+                </nav>
+            </div>
+            <div class="col-9">
+                @RenderBody()
+            </div>
+        </div>
+    </body>
+</html>

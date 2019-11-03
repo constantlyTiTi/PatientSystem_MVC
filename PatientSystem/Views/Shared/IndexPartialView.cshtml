@@ -1,0 +1,60 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Patient
+
+<form asp-action="Index" method="post">
+    <table>
+        <thead>
+            Patient Registration
+        </thead>
+        <tr>
+            <td colspan="2">
+                Patient Registration Form
+            </td>
+        </tr>
+        <tr>
+            <td><lable asp-for="Name">Patient Name</lable></td>
+            <td><input asp-for="Name" /></td>
+        </tr>
+        <tr>
+            <td><lable asp-for="Age"> Age</lable></td>
+            <td><input asp-for="Age" /></td>
+        </tr>
+        <tr>
+            <td><lable asp-for="Address">Address</lable></td>
+            <td><input asp-for="Address" /></td>
+        </tr>
+        <tr>
+            <td><lable asp-for="Occupation">Occupation</lable></td>
+            <td><input asp-for="Occupation" /></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input asp-for="HasInsurance" type="checkbox" /> Has Insurance?
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input asp-for="HasOperationBefore" type="checkbox" /> Has Operation Before?
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <select asp-for="MaritalStatus">
+                    <option asp-for="MaritalStatus" value="Married">Married</option>
+                    <option asp-for="MaritalStatus" value="Single">Single</option>
+                    <option asp-for="MaritalStatus" value="Divorced">Divorced</option>
+                    <option asp-for="MaritalStatus" value="Widowed">Widowed</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <button type="submit">
+        Complete and Submission
+    </button>
+    <button type="button" onclick="window.location.href='@Url.Action("PatientList")'">
+        Review Patient List
+    </button>
+</form>
+

@@ -1,0 +1,39 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model PatientListViewModel
+
+<table>
+    <thead>
+        <tr>
+            <td>Patient Name</td>
+            <td>Age</td>
+            <td>Address</td>
+            <td>Occupation</td>
+            <td>Has Insurance?</td>
+            <td>Had Preivous Operation?</td>
+            <td>Marital Status</td>
+            <td>Account ID</td>
+            <td>Registered Time</td>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Patient item in Model.Patients)
+        {
+            <tr>
+                <td> @item.Name</td>
+                <td> @item.Age</td>
+                <td> @item.Address</td>
+                <td> @item.Occupation</td>
+                <td> @(item.HasInsurance ? "Yes" : "No")</td>
+                <td> @(item.HasOperationBefore ? "Yes" : "No")</td>
+                <td> @item.MaritalStatus</td>
+                <td>@item.Id</td>
+                <td>@item.RegisterTime</td>
+
+            </tr>
+        }
+    </tbody>
+
+</table>
