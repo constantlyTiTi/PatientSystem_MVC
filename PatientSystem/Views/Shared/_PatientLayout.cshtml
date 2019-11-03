@@ -1,23 +1,35 @@
 ﻿<!DOCTYPE html>
 
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width" />
-        <title>@ViewBag.Title</title>
-    </head>
-    <body>
-        <div class="navbar navbar-inverse bg-inverse" role="navigation">
-            <a class="navbar-brand" href="#">Patient Registration</a>
-        </div>
-        <div class="row m-1 p-1">
-            <div id="categories" class="col-3">
-                <nav>
-                    @await Component.InvokeAsync("NavigationMenu")
-                </nav>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="@Url.Content("~/CSS/StyleSheet.css")" type="text/css" />
+    @*<link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" type="text/css" />*@
+
+</head>
+<body>
+    <div class="upperBrandClass">
+        <span class="logSpanClass">
+            <img class="backGroundPicClass" src="@Url.Content("~/Image/RegistrationIcon.jpeg")"/>
+        </span>
+        <span class="leftSpanTextClass">
+            Patient Registration
+        </span>
+    </div>
+    <section>
+        <div class="lowerNavClass">
+            <div class="leftNavClass leftNavLeft">
+                <span class="leftSpanClass">@Html.ActionLink("Home", "Index") </span>
+                <span class="leftSpanClass">@Html.ActionLink("View Patient List", "PatientList")</span>
             </div>
-            <div class="col-9">
+            <div class="midNavClass MidNavRight">
                 @RenderBody()
+
             </div>
+
         </div>
-    </body>
+    </section>
+    @*@RenderSection("footer", true)*@
+</body>
 </html>

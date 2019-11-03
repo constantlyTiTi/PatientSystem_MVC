@@ -32,6 +32,7 @@ namespace PatientSystem
             //{
             //    await context.Response.WriteAsync("Hello World!");
             //});
+            app.UseStatusCodePages();
 
             app.UseMvc(routes =>
             {
@@ -40,7 +41,7 @@ namespace PatientSystem
                     template: "{controller=home}/{action=Index}/{id?}");
                 routes.MapRoute(
                 name: "martialStatus",
-                    template: "{controller=home}/{action=PatientList}");
+                    template: "{controller=home}/{action=PatientList}/{martialStatus=Married}/{page=1}");
             }
                 );
         }

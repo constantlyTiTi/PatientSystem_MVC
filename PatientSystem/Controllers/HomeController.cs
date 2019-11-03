@@ -32,23 +32,35 @@ namespace PatientSystem.Controllers
             return View("ThankYouPage", newPatient);
         }
 
-        public ViewResult PatientList(string maritalStatus, int page = 1)
+        public ViewResult PatientList()
         {
-            return View(new PatientListViewModel
-            {
-                Patients = _repository.PatientList
-                .Where(x=> maritalStatus==null||x.MaritalStatus==maritalStatus)
-            .OrderBy(x => x.Name)
-            .Skip((page-1)*pageSize)
-            .Take(pageSize),
-                PageInfor=new PageInfor
-                {
-                    CurrentPage=page,
-                    ItemPerPage= pageSize,
-                    TotalItems= _repository.PatientList.Count()
-                }
-            });
+            return View(_repository.PatientList
+            .OrderBy(p => p.Name));
         }
+
+        //public ViewResult PatientList(string maritalStatus, int page = 1)
+        //{
+        //    //PatientListViewModel patientListViewModel = new PatientListViewModel();
+        //    //PageInfor pageInfor = new PageInfor{
+        //    //    CurrentPage = page,
+        //    //    ItemPerPage = pageSize,
+        //    //    TotalItems = _repository.PatientList.Count()
+        //    //};
+        //    //patientListViewModel.Patients = _repository.PatientList
+        //    //    .Where(x => maritalStatus == null || x.MaritalStatus == maritalStatus)
+        //    //.OrderBy(x => x.Name)
+        //    //.Skip((page - 1) * pageSize)
+        //    //.Take(pageSize);
+
+        //    //patientListViewModel.PageInfor = pageInfor
+        //    //;
+
+        //    return View(_repository.PatientList
+        //        .Where(x => maritalStatus == null || x.MaritalStatus == maritalStatus)
+        //    .OrderBy(x => x.Name)
+        //    .Skip((page - 1) * pageSize)
+        //    .Take(pageSize));
+        //}
 
         public ViewResult ThankYouPage(Patient aPatient)
         {

@@ -11506,11 +11506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tingli/Desktop/homework/COMP229-web application/assignment/asp_git/PatientSystem/PatientSystem/PatientSystem/PatientSystem.csproj",
+      "projectUniqueName": "/Users/tingli/Desktop/homework/COMP229-web application/assignment/asp_git/PatientSystem/PatientSystem/PatientSystem.csproj",
       "projectName": "PatientSystem",
-      "projectPath": "/Users/tingli/Desktop/homework/COMP229-web application/assignment/asp_git/PatientSystem/PatientSystem/PatientSystem/PatientSystem.csproj",
+      "projectPath": "/Users/tingli/Desktop/homework/COMP229-web application/assignment/asp_git/PatientSystem/PatientSystem/PatientSystem.csproj",
       "packagesPath": "/Users/tingli/.nuget/packages/",
-      "outputPath": "/Users/tingli/Desktop/homework/COMP229-web application/assignment/asp_git/PatientSystem/PatientSystem/PatientSystem/obj",
+      "outputPath": "/Users/tingli/Desktop/homework/COMP229-web application/assignment/asp_git/PatientSystem/PatientSystem/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

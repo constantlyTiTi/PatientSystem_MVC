@@ -15,6 +15,9 @@
     <Folder Include="Views\Shared\Components\" />
     <Folder Include="Views\Shared\Components\NavigationMenu\" />
     <Folder Include="Models\ViewModels\" />
+    <Folder Include="wwwroot\CSS\" />
+    <Folder Include="wwwroot\Image\" />
+    <Folder Include="Infrustructure\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,5 +37,13 @@
     <Content Remove="wwwroot\lib\bootstrap\js\bootstrap.js" />
     <Content Remove="wwwroot\lib\bootstrap\js\bootstrap.min.js" />
     <Content Remove="libman.json" />
+    <Content Remove="wwwroot\lib\.DS_Store" />
+    <Content Remove="wwwroot\lib\bootstrap\.DS_Store" />
+    <Content Remove="wwwroot\lib\bootstrap\css\bootstrap.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\css\bootstrap.min.css" />
+    <Content Remove="wwwroot\lib\bootstrap\css\bootstrap.min.css.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Infrustructure\PageLink.css" />
   </ItemGroup>
 </Project>
