@@ -1,7 +1,7 @@
 body {
     font-family: Verdana;
     background-color: ghostwhite;
-    background-image: url("/Image/bodybackground.jpg");
+    /*background-image: url("/Image/bodybackground.jpg");*/
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
